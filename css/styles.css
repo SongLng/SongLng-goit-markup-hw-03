@@ -18,12 +18,18 @@
   --accent: #2196f3;
   --footer-color: rgba(255, 255, 255, 0.6);
   --footer-background-color: #2f303a;
+  --border-color: #ececec;
 }
 
 body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
   font-family: roboto, sans-serif;
+}
+
+header {
+  border: 1px solid;
+  color: var(--border-color);
 }
 
 img {
@@ -46,7 +52,6 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 1px solid tomato;
 }
 
 .section {
@@ -84,7 +89,6 @@ ul {
 }
 
 .site-nav .item {
-  background-color: tomato;
 }
 
 .site-nav .item:not(:last-child) {
@@ -162,7 +166,7 @@ ul {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  background-color: tomato;
+
   margin-bottom: 40px;
 }
 
