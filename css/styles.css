@@ -28,7 +28,7 @@ body {
 }
 
 header {
-  border: 1px solid;
+  border-bottom: 1px solid;
   color: var(--border-color);
 }
 
@@ -213,12 +213,14 @@ ul {
 .feature-list {
   list-style-type: none;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .feature-list .item {
+  margin-right: 30px;
   width: 270px;
-  height: 101px;
+}
+.feature-list .item:nth-child(4n) {
+  margin-right: 0;
 }
 
 .feature-list .title {
