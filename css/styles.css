@@ -394,6 +394,7 @@ ul {
 .footer.main {
   background-color: var(--footer-background-color);
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer .link {
@@ -444,5 +445,5 @@ ul {
 }
 
 .address-block {
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
 }
